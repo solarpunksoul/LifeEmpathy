@@ -1,0 +1,46 @@
+main {
+	margin-bottom: 5rem;
+}
+
+article {
+	margin-bottom: 3.5rem;
+}
+
+h2 {
+	margin-bottom: 2rem;
+}
+
+button {
+	background-color: tan;
+	border: none;
+}
+
+button:first-of-type {
+	margin-right: 0.5rem;
+}
+
+.arrow-left {
+	border-top: solid 0.75rem transparent;
+	border-right: solid 1.5rem white;
+	border-bottom: solid 0.75rem transparent;
+}
+
+.arrow-right {
+	border-top: solid 0.75rem transparent;
+	border-bottom: solid 0.75rem transparent;
+	border-left: solid 1.5rem white;
+}
+
+@media (min-width: 768px) {
+	.stories {
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+}
+
+@media (min-width: 1025px) {
+	.stories {
+		padding-left: 33%;
+		padding-right: 33%;
+	}
+}

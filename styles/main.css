@@ -1,0 +1,70 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 3.5rem 1rem;
+	font-family: sans-serif;
+	font-size: 1.25rem;
+	color: white;
+	background-color: tan;
+}
+
+body::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: navajowhite;
+	border-radius: 0.25rem;
+}
+
+header {
+	margin-bottom: 5rem;
+}
+
+header a {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: bold;
+	color: inherit;
+}
+
+header a, nav a {
+	text-decoration: none;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+h1, h2 {
+	color: navajowhite;
+}
+
+p {
+	line-height: 2rem;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:disabled {
+	opacity: 0.5;
+	cursor: initial;
+}
+
+.empathy {
+	display: inline-block;
+	padding: 0 1rem 1rem 1rem;
+	border-bottom: solid 0.5rem pink;
+	border-radius: 50%;
+}
+
+.life {
+	width: 2rem;
+	height: 3.5rem;
+	background-color: indianred;
+	border-radius: 50%;
+}
